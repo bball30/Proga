@@ -1,10 +1,8 @@
 package Actors;
 
-import Actions.INeznaika;
-import Actions.INeznaikaFun;
-import Actions.Quiz;
-import Actions.Song;
+import Actions.*;
 import Clothes.Hat;
+import Clothes.Shoes;
 import Location.Location;
 
 import java.util.Objects;
@@ -42,18 +40,18 @@ public class Neznaika implements INeznaika, INeznaikaFun {
         System.out.println(getName() + " без шляпы");
     }
 
-    public void SayProverbs() {
-        System.out.println(getName() + " вспомнил и произнес пословицы и поговорки:");
+    public void SayProverbs(Proverbs p) {
+        System.out.println(getName() + " вспомнил и произнес пословицу:" + p.SayProverb());
     }
 
     @Override
-    public void TryOn() {
-        System.out.println(getName() + " меряет ботинки Козлика");
+    public void TryOn(Shoes shoes) {
+        System.out.println(getName() + " меряет " + shoes.toString());
     }
 
     @Override
-    public void StayOn() {
-        System.out.println(getName() + " остался проводить время " + Location.UNDER_BRIDGE.getPlace());
+    public void StayOn(Location l) {
+        System.out.println(getName() + " остался проводить время " + l.getPlace());
     }
 
     @Override

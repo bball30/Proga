@@ -20,7 +20,7 @@ public class Main {
 
         System.out.println(Location.UNDER_BRIDGE.getPlace());
         k.SayItIsNotHard();
-        n.TryOn();
+        n.TryOn(shoes);
         if (n.getSizeOfShoes() == shoes.getSize()){
             System.out.println("Ботинки в самый раз!");
             Shoes = true;
@@ -34,7 +34,7 @@ public class Main {
         }
         k.GoHunting();
 
-        n.StayOn();
+        n.StayOn(Location.UNDER_BRIDGE);
         if (Shoes) {
             n.ShoesYes();
         } else {
@@ -50,10 +50,9 @@ public class Main {
         n.MadeRiddles(q);
         n.GuessRiddles(q);
         System.out.println(n.Riddle(q));
-        n.SayProverbs();
-        Proverbs.A.SayProverb();
-        Proverbs.B.SayProverb();
-        Proverbs.C.SayProverb();
+        n.SayProverbs(Proverbs.A);
+        n.SayProverbs(Proverbs.B);
+        n.SayProverbs(Proverbs.C);
         n.RememberLife();
         n.RememberFriends();
     }

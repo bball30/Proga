@@ -11,7 +11,7 @@ public enum Proverbs {
         proverb = st;
     }
 
-    public void SayProverb(){
-        System.out.println(proverb);
+    public String SayProverb(){
+        return proverb;
     }
 }

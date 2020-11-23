@@ -22,9 +22,7 @@ public class Shoes {
 
     @Override
     public String toString() {
-        return "Shoes{" +
-                "size=" + size +
-                '}';
+        return "ботинки " + size + " размера";
     }
 
     @Override
