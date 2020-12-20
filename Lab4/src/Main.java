@@ -21,7 +21,7 @@ public class Main {
         City city = new City(false);
         City.Cops cops = city.new Cops("полицаи");
 
-        River river = new River();
+        River river = new River("Огурцовая");
         River.Flow flow = new River.Flow(true);
 
         System.out.println(Time.MORNING.getTime());
@@ -30,7 +30,9 @@ public class Main {
         k.UnDress();
         Location.NEAR_WATER.changeLocation(Location.UNDER_WATER);
 
-        river.Host(n, k);
+        //river.Host(n, k);
+        n.Swim(river);
+        k.Swim(river);
 
         flow.CarriedAway(n, shoes, hat);
 
@@ -40,11 +42,12 @@ public class Main {
 
         Appearable appearable = new Appearable() {
             @Override
-            public void appear() {
-                System.out.println("Прохожые появились на набережной.");
+            public void appear(River r, int i) {
+                for (i=1; i<5; i++)
+                System.out.println("Прохожий " + i + " появился на набережной реки " + r.getName());
             }
         };
-        appearable.appear();
+        appearable.appear(river, 7);
 
         cops.IsSleeping();
 

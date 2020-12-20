@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Main</OriginalElement>
+  <nodes>
+    <node x="557.5795628737205" y="753.0">Actions.INeznaikaFun</node>
+    <node x="864.6082126659569" y="764.0">Actions.INeznaika</node>
+    <node x="1567.699755181413" y="127.0">Actors.Goat</node>
+    <node x="178.233212665957" y="752.0">Clothes.Hat</node>
+    <node x="151.12763979679733" y="431.5">Actions.Quiz</node>
+    <node x="770.8678882259044" y="1050.0">Actors.Neznaika</node>
+    <node x="343.1276397967973" y="442.5">Actions.Song</node>
+    <node x="984.2767384336678" y="1901.5">Actors.River.Flow</node>
+    <node x="1249.608212665957" y="730.0">Actions.Proverbs</node>
+    <node x="2030.0459692028985" y="1835.0">Time.Time</node>
+    <node x="370.233212665957" y="808.0">Exeptions.SizeException</node>
+    <node x="1814.0523794593091" y="1685.0">Actors.City</node>
+    <node x="1873.0459692028985" y="1901.5">Actors.City.Cops</node>
+    <node x="700.0865384615386" y="409.0">Location.Location</node>
+    <node x="1051.608212665957" y="808.0">Exeptions.RocketException</node>
+    <node x="1583.199755181413" y="0.0">Actors.Animal</node>
+    <node x="1718.3921230490523" y="1924.5">Actions.Appearable</node>
+    <node x="1493.430584587514" y="1708.0">Actors.River</node>
+    <node x="1218.2045628737205" y="431.5">Clothes.Shoes</node>
+    <node x="1524.173977969494" y="2238.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Actors.River.Flow" target="Actors.River">
+      <point x="97.125" y="-50.0" />
+      <point x="1210.9017384336678" y="1815.0" />
+      <point x="1524.5972512541807" y="1815.0" />
+      <point x="-62.333333333333314" y="27.0" />
+    </edge>
+    <edge source="Main" target="Actions.Appearable">
+      <point x="36.75" y="-27.0" />
+      <point x="1634.423977969494" y="2158.0" />
+      <point x="1750.3921230490523" y="2158.0" />
+      <point x="-32.0" y="27.0" />
+    </edge>
+    <edge source="Main" target="Actors.Goat">
+      <point x="31.09615384615381" y="-27.0" />
+      <point x="1628.7701318156478" y="2148.0" />
+      <point x="1707.8921230490523" y="2148.0" />
+      <point x="1707.8921230490523" y="384.0" />
+      <point x="1718.199755181413" y="384.0" />
+      <point x="64.5" y="116.0" />
+    </edge>
+    <edge source="Actors.River" target="Actors.Neznaika">
+      <point x="-46.75" y="-27.0" />
+      <point x="1540.180584587514" y="1655.0" />
+      <point x="941.4928882259044" y="1655.0" />
+      <point x="73.125" y="292.5" />
+    </edge>
+    <edge source="Main" target="Actors.City.Cops">
+      <point x="59.36538461538453" y="-27.0" />
+      <point x="1657.0393625848787" y="2198.0" />
+      <point x="1907.2959692028985" y="2198.0" />
+      <point x="-34.25" y="50.0" />
+    </edge>
+    <edge source="Main" target="Actors.Neznaika">
+      <point x="-8.480769230769283" y="-27.0" />
+      <point x="1589.193208738725" y="2108.0" />
+      <point x="1477.2767384336678" y="2108.0" />
+      <point x="1477.2767384336678" y="1665.0" />
+      <point x="892.7428882259044" y="1665.0" />
+      <point x="24.375" y="292.5" />
+    </edge>
+    <edge source="Actors.River" target="Actors.Goat">
+      <point x="46.75" y="-27.0" />
+      <point x="1633.680584587514" y="384.0" />
+      <point x="1632.199755181413" y="384.0" />
+      <point x="-21.5" y="116.0" />
+    </edge>
+    <edge source="Actors.Neznaika" target="Actions.Song">
+      <point x="-17.727272727272748" y="-292.5" />
+      <point x="850.6406154986316" y="970.0" />
+      <point x="808.7045628737205" y="970.0" />
+      <point x="808.7045628737205" y="650.0" />
+      <point x="493.6276397967973" y="650.0" />
+      <point x="64.5" y="72.0" />
+    </edge>
+    <edge source="Actors.Neznaika" target="Actions.Proverbs">
+      <point x="88.63636363636363" y="-292.5" />
+      <point x="957.0042518622679" y="1030.0" />
+      <point x="1294.108212665957" y="1030.0" />
+      <point x="-44.5" y="105.0" />
+    </edge>
+    <edge source="Actors.Neznaika" target="Clothes.Shoes">
+      <point x="70.90909090909088" y="-292.5" />
+      <point x="939.2769791349951" y="1020.0" />
+      <point x="1239.108212665957" y="1020.0" />
+      <point x="1239.108212665957" y="710.0" />
+      <point x="1289.871229540387" y="710.0" />
+      <point x="-14.333333333333371" y="83.0" />
+    </edge>
+    <edge source="Actors.River.Flow" target="Actors.Neznaika">
+      <point x="-32.375" y="-50.0" />
+      <point x="1081.4017384336678" y="1805.0" />
+      <point x="843.9928882259044" y="1805.0" />
+      <point x="-24.375" y="292.5" />
+    </edge>
+    <edge source="Actors.Neznaika" target="Exeptions.RocketException">
+      <point x="53.18181818181813" y="-292.5" />
+      <point x="921.5497064077224" y="1010.0" />
+      <point x="1140.108212665957" y="1010.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Actors.Neznaika" target="Actions.Quiz">
+      <point x="-53.18181818181813" y="-292.5" />
+      <point x="815.1860700440861" y="990.0" />
+      <point x="542.7332126659569" y="990.0" />
+      <point x="542.7332126659569" y="680.0" />
+      <point x="258.6276397967973" y="680.0" />
+      <point x="21.5" y="83.0" />
+    </edge>
+    <edge source="Main" target="Exeptions.SizeException">
+      <point x="-31.096153846153925" y="-27.0" />
+      <point x="1566.5778241233402" y="2148.0" />
+      <point x="391.4545628737204" y="2148.0" />
+      <point x="391.4545628737204" y="1030.0" />
+      <point x="410.733212665957" y="1030.0" />
+      <point x="-40.5" y="27.0" />
+    </edge>
+    <edge source="Main" target="Actors.River">
+      <point x="2.8269230769230944" y="-27.0" />
+      <point x="1600.5009010464173" y="2088.0" />
+      <point x="1586.930584587514" y="2088.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Actors.River.Flow" target="Clothes.Shoes">
+      <point x="32.375" y="-50.0" />
+      <point x="1146.1517384336678" y="1805.0" />
+      <point x="1438.108212665957" y="1805.0" />
+      <point x="1438.108212665957" y="710.0" />
+      <point x="1318.5378962070538" y="710.0" />
+      <point x="14.333333333333371" y="83.0" />
+    </edge>
+    <edge source="Clothes.Shoes" target="Actors.Goat">
+      <point x="0.0" y="-83.0" />
+      <point x="1304.2045628737205" y="384.0" />
+      <point x="1589.199755181413" y="384.0" />
+      <point x="-64.5" y="116.0" />
+    </edge>
+    <edge source="Actors.River.Flow" target="Clothes.Hat">
+      <point x="-97.125" y="-50.0" />
+      <point x="1016.6517384336678" y="1815.0" />
+      <point x="563.5772587919324" y="1815.0" />
+      <point x="563.5772587919324" y="1020.0" />
+      <point x="285.733212665957" y="1020.0" />
+      <point x="21.5" y="83.0" />
+    </edge>
+    <edge source="Main" target="Time.Time">
+      <point x="70.6730769230769" y="-27.0" />
+      <point x="1668.3470548925711" y="2218.0" />
+      <point x="2116.0459692028985" y="2218.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="Main" target="Clothes.Shoes">
+      <point x="19.788461538461547" y="-27.0" />
+      <point x="1617.4624395079557" y="2128.0" />
+      <point x="1696.5844307413602" y="2128.0" />
+      <point x="1696.5844307413602" y="690.0" />
+      <point x="1375.871229540387" y="690.0" />
+      <point x="71.66666666666674" y="83.0" />
+    </edge>
+    <edge source="Main" target="Actions.Song">
+      <point x="-53.71153846153857" y="-27.0" />
+      <point x="1543.9624395079554" y="2188.0" />
+      <point x="79.24288822590427" y="2188.0" />
+      <point x="79.24288822590427" y="700.0" />
+      <point x="407.6276397967973" y="700.0" />
+      <point x="-21.5" y="72.0" />
+    </edge>
+    <edge source="Main" target="Actions.Proverbs">
+      <point x="-2.8269230769230944" y="-27.0" />
+      <point x="1594.8470548925711" y="2098.0" />
+      <point x="1482.930584587514" y="2098.0" />
+      <point x="1482.930584587514" y="1030.0" />
+      <point x="1383.108212665957" y="1030.0" />
+      <point x="44.5" y="105.0" />
+    </edge>
+    <edge source="Actors.Neznaika" target="Actions.INeznaikaFun">
+      <point x="-35.454545454545496" y="-292.5" />
+      <point x="832.9133427713589" y="980.0" />
+      <point x="647.0795628737205" y="980.0" />
+      <point x="0.0" y="82.0" />
+    </edge>
+    <edge source="Actions.INeznaika" target="Clothes.Shoes">
+      <point x="41.5" y="-71.0" />
+      <point x="989.1082126659569" y="690.0" />
+      <point x="1232.5378962070538" y="690.0" />
+      <point x="-71.66666666666663" y="83.0" />
+    </edge>
+    <edge source="Actors.Goat" target="Actors.Animal">
+      <point x="-43.0" y="-116.0" />
+      <point x="1610.699755181413" y="102.0" />
+      <point x="1618.449755181413" y="102.0" />
+      <point x="-35.25" y="38.5" />
+    </edge>
+    <edge source="Main" target="Actions.Quiz">
+      <point x="-65.01923076923083" y="-27.0" />
+      <point x="1532.6547472002633" y="2208.0" />
+      <point x="25.5" y="2208.0" />
+      <point x="25.5" y="680.0" />
+      <point x="215.62763979679733" y="680.0" />
+      <point x="-21.5" y="83.0" />
+    </edge>
+    <edge source="Actors.Neznaika" target="Clothes.Hat">
+      <point x="-88.63636363636363" y="-292.5" />
+      <point x="779.7315245895406" y="1010.0" />
+      <point x="328.733212665957" y="1010.0" />
+      <point x="64.5" y="83.0" />
+    </edge>
+    <edge source="Actors.Neznaika" target="Location.Location">
+      <point x="0.0" y="-292.5" />
+      <point x="868.3678882259044" y="960.0" />
+      <point x="854.1082126659569" y="960.0" />
+      <point x="854.1082126659569" y="640.0" />
+      <point x="805.0865384615386" y="640.0" />
+      <point x="0.0" y="105.5" />
+    </edge>
+    <edge source="Actors.Neznaika" target="Actions.INeznaika">
+      <point x="17.727272727272748" y="-292.5" />
+      <point x="886.0951609531771" y="990.0" />
+      <point x="947.6082126659569" y="990.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="Actions.INeznaikaFun" target="Actions.Quiz">
+      <point x="-44.75" y="-82.0" />
+      <point x="602.3295628737205" y="670.0" />
+      <point x="301.6276397967973" y="670.0" />
+      <point x="64.5" y="83.0" />
+    </edge>
+    <edge source="Actions.INeznaika" target="Location.Location">
+      <point x="-41.5" y="-71.0" />
+      <point x="906.1082126659569" y="710.0" />
+      <point x="875.0865384615386" y="710.0" />
+      <point x="70.0" y="105.5" />
+    </edge>
+    <edge source="Actions.INeznaikaFun" target="Actions.Song">
+      <point x="44.75" y="-82.0" />
+      <point x="691.8295628737205" y="660.0" />
+      <point x="450.6276397967973" y="660.0" />
+      <point x="21.5" y="72.0" />
+    </edge>
+    <edge source="Main" target="Location.Location">
+      <point x="-48.05769230769238" y="-27.0" />
+      <point x="1549.6162856618016" y="2178.0" />
+      <point x="167.733212665957" y="2178.0" />
+      <point x="167.733212665957" y="710.0" />
+      <point x="735.0865384615386" y="710.0" />
+      <point x="-70.0" y="105.5" />
+    </edge>
+    <edge source="Main" target="Actors.City">
+      <point x="48.057692307692264" y="-27.0" />
+      <point x="1645.7316702771864" y="2178.0" />
+      <point x="1856.8921230490523" y="2178.0" />
+      <point x="1856.8921230490523" y="1815.0" />
+      <point x="1836.8857127926422" y="1815.0" />
+      <point x="-45.66666666666674" y="50.0" />
+    </edge>
+    <edge source="Main" target="Actors.River.Flow">
+      <point x="-19.788461538461547" y="-27.0" />
+      <point x="1577.8855164310326" y="2128.0" />
+      <point x="1049.0267384336678" y="2128.0" />
+      <point x="-64.75" y="50.0" />
+    </edge>
+    <edge source="Clothes.Shoes" target="Actors.Neznaika">
+      <point x="-43.0" y="83.0" />
+      <point x="1261.2045628737205" y="700.0" />
+      <point x="1041.108212665957" y="700.0" />
+      <point x="1041.108212665957" y="1000.0" />
+      <point x="903.8224336804499" y="1000.0" />
+      <point x="35.454545454545496" y="-292.5" />
+    </edge>
+    <edge source="Actors.City.Cops" target="Actors.City">
+      <point x="0.0" y="-50.0" />
+      <point x="1941.5459692028985" y="1815.0" />
+      <point x="1928.2190461259756" y="1815.0" />
+      <point x="45.66666666666674" y="50.0" />
+    </edge>
+    <edge source="Actors.Neznaika" target="Exeptions.SizeException">
+      <point x="-70.90909090909088" y="-292.5" />
+      <point x="797.4587973168134" y="1000.0" />
+      <point x="491.733212665957" y="1000.0" />
+      <point x="40.5" y="27.0" />
+    </edge>
+    <edge source="Main" target="Clothes.Hat">
+      <point x="-42.40384615384619" y="-27.0" />
+      <point x="1555.2701318156478" y="2168.0" />
+      <point x="215.57936651211082" y="2168.0" />
+      <point x="215.57936651211082" y="1030.0" />
+      <point x="199.733212665957" y="1030.0" />
+      <point x="-64.5" y="83.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3340142095914742" x="919.9163044569577" y="1301.8885934591865" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

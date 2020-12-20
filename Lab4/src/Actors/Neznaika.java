@@ -42,6 +42,17 @@ public class Neznaika implements INeznaika, INeznaikaFun {
         }
     }
 
+    public void Swim(River r){
+        while(getColor()!=4 ) {
+            System.out.println(getName() + " нырнул в реку " + r.getName() + ", чтобы найти ботинки и шляпу!");
+            setColor(getColor() + 1);
+            System.out.println(getName() + " " + color() + ".");
+            if(getColor()==4){
+                System.out.println("Но так ничего и не нашел(");
+            }
+        }
+    }
+
     public int getSizeOfShoes() {
         return SizeOfShoes;
     }
